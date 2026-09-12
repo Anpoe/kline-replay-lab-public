@@ -7,7 +7,7 @@
 > 当前公开版本：`v0.1.0`<br>
 > [下载最新版本（GitHub Releases）](https://github.com/Anpoe/kline-replay-lab-public/releases/latest)
 
-## 给普通用户：三分钟开始使用
+## 开始使用
 
 ### 1. 下载并解压
 
