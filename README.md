@@ -7,7 +7,7 @@
 > 当前公开版本：`v0.1.0`<br>
 > [下载最新版本（GitHub Releases）](https://github.com/Anpoe/kline-replay-lab-public/releases/latest)
 
-## 开始使用
+## 给普通用户：三分钟开始使用
 
 ### 1. 下载并解压
 
@@ -28,6 +28,10 @@
 `KLineTrainingCamp.ControlPanel.exe`
 
 打开控制面板后点击“启动服务”。当“本地数据服务”“WebUI”“后台更新任务”都显示为“就绪”时，点击“打开 WebUI”。
+
+关闭控制面板窗口只会隐藏到系统托盘；需要停止服务时，请从托盘菜单选择“退出”。
+
+启用开机后台启动后，Windows 会以 `KLineTrainingCamp.ControlPanel.exe --hidden` 静默启动；启动检查和定时检查由后台 worker 执行，同一天不会重复执行。
 
 也可以在浏览器中打开：
 
